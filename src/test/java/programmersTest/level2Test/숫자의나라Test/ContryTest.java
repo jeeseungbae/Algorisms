@@ -1,7 +1,7 @@
-package programmersTest.level2Test.contryOfNumbersTest;
+package programmersTest.level2Test.숫자의나라Test;
 
 import org.junit.jupiter.api.Test;
-import programmers.level2.countryOfNumbers.Contry;
+import programmers.level2.숫자의나라.Contry;
 
 public class ContryTest {
 

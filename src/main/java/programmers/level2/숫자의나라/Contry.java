@@ -1,6 +1,4 @@
-package programmers.level2.countryOfNumbers;
-
-import java.util.List;
+package programmers.level2.숫자의나라;
 
 public class Contry {
 
@@ -8,7 +6,7 @@ public class Contry {
     public String solution(int n) {
         StringBuilder sb = new StringBuilder();
         // String 과 비교하여 시간차이에서 월등히 좋다.
-        
+
         int newNumber;
 
         while(n>0){

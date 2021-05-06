@@ -1,7 +1,7 @@
-package programmersTest.level2Test.openchatTest;
+package programmersTest.level2Test.오픈채팅방Test;
 
 import org.junit.jupiter.api.Test;
-import programmers.level2.openchat.openchat;
+import programmers.level2.오픈채팅방.openchat;
 
 public class openchatTest {
 
