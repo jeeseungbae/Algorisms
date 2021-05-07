@@ -1,4 +1,4 @@
-package programmersTest.level2Test.숫자의나라Test;
+package programmersTest.level2Test.숫자의나라;
 
 import org.junit.jupiter.api.Test;
 import programmers.level2.숫자의나라.Contry;
