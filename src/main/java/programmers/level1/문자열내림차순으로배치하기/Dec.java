@@ -1,8 +1,6 @@
 package programmers.level1.문자열내림차순으로배치하기;
 
-
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 
 public class Dec {
@@ -10,11 +8,11 @@ public class Dec {
     public String solution(String s) {
         StringBuilder answer = new StringBuilder();
 
-        String[] x = s.split("");
+        String[] list_s = s.split("");
 
-        Arrays.sort(x, Comparator.reverseOrder());
+        Arrays.sort(list_s, Comparator.reverseOrder());
 
-        for(String i : x){
+        for(String i : list_s){
             answer.append(i);
         }
 
