@@ -6,7 +6,6 @@ public class Demical {
     private int answer=0;
 
     public int solution(int[] nums) {
-//        init();
 
         bfs(nums,0,0,0);
 
@@ -19,9 +18,6 @@ public class Demical {
             if(check(total)){
                 answer++;
             }
-//            if(ertos[total]==true){
-//                answer++;
-//            }
             return 1;
         }
 
@@ -49,6 +45,32 @@ public class Demical {
         return false;
     }
 
+
+//    public int solution(int[] nums) {
+//        init();
+//
+//        bfs(nums,0,0,0);
+//
+//        return answer;
+//    }
+
+//    private int bfs(int[] nums, int num,int total,int count){
+//
+//        if(count==3){
+//            if(ertos[total]==true){
+//                answer++;
+//            }
+//            return 1;
+//        }
+//
+//        for(int i=num; i<nums.length; i++){
+//            total += nums[i];
+//            bfs(nums,i+1,total,++count);
+//            total -= nums[i];
+//            count--;
+//        }
+//        return 0;
+//    }
 
 // 에라토스테네스의 체 평균시간 6ms
 //    public void init(){
