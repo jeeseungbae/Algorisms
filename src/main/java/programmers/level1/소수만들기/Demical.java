@@ -7,12 +7,12 @@ public class Demical {
 
     public int solution(int[] nums) {
 
-        bfs(nums,0,0,0);
+        recursion(nums,0,0,0);
 
         return answer;
     }
 
-    private int bfs(int[] nums, int num,int total,int count){
+    private int recursion(int[] nums, int num, int total, int count){
 
         if(count==3){
             if(check(total)){
@@ -23,7 +23,7 @@ public class Demical {
 
         for(int i=num; i<nums.length; i++){
             total += nums[i];
-            bfs(nums,i+1,total,++count);
+            recursion(nums,i+1,total,++count);
             total -= nums[i];
             count--;
         }
@@ -49,12 +49,12 @@ public class Demical {
 //    public int solution(int[] nums) {
 //        init();
 //
-//        bfs(nums,0,0,0);
+//        recursion(nums,0,0,0);
 //
 //        return answer;
 //    }
 
-//    private int bfs(int[] nums, int num,int total,int count){
+//    private int recursion(int[] nums, int num,int total,int count){
 //
 //        if(count==3){
 //            if(ertos[total]==true){
@@ -65,7 +65,7 @@ public class Demical {
 //
 //        for(int i=num; i<nums.length; i++){
 //            total += nums[i];
-//            bfs(nums,i+1,total,++count);
+//            recursion(nums,i+1,total,++count);
 //            total -= nums[i];
 //            count--;
 //        }
