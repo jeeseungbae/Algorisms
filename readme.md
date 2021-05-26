@@ -5,6 +5,9 @@
 ### level 1
 - [문자열내림차순으로배치하기](./src/main/java/programmers/level1/문자열내림차순으로배치하기)
 - [키패드누르기](./src/main/java/programmers/level1/키패드누르기)
+- [내적](./src/main/java/programmers/level1/내적)
+- [신규아이디추천](./src/main/java/programmers/level1/신규아이디추천)
+
 
 ### Level 2
 - [오픈채팅방](./src/main/java/programmers/level2/오픈채팅방)
