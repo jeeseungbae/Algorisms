@@ -12,6 +12,7 @@
 - [실패율](./src/main/java/programmers/level1/실패율)
 - [최대공약수와최소공배수](./src/main/java/programmers/level1/최대공약수와최소공배수)
 - [예산](./src/main/java/programmers/level1/예산)
+- [체육복](./src/main/java/programmers/level1/체육복)
 
 
 ### Level 2
