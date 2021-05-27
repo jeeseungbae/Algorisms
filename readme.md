@@ -9,6 +9,9 @@
 - [내적](./src/main/java/programmers/level1/내적)
 - [신규아이디추천](./src/main/java/programmers/level1/신규아이디추천)
 - [약수의개수와덧셈](./src/main/java/programmers/level1/약수의개수와덧셈)
+- [실패율](./src/main/java/programmers/level1/실패율)
+- [최대공약수와최소공배수](./src/main/java/programmers/level1/최대공약수와최소공배수)
+
 
 ### Level 2
 - [오픈채팅방](./src/main/java/programmers/level2/오픈채팅방)
