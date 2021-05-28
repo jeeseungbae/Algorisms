@@ -19,4 +19,5 @@
 - [오픈채팅방](./src/main/java/programmers/level2/오픈채팅방)
 - [숫자의나라](./src/main/java/programmers/level2/숫자의나라)
 - [짝지어 제거하기](./src/main/java/programmers/level2/짝지어제거하기)
+- [프린터](./src/main/java/programmers/level2/프린터)
 
